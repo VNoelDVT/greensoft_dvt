@@ -1,0 +1,18 @@
+# Core (client + numerics)
+openai>=1.42.0
+numpy>=1.26.4
+
+# Méthode 4 (RandomForest)
+scikit-learn>=1.4.2
+scipy>=1.11.4
+joblib>=1.3.2
+threadpoolctl>=3.2.0
+
+# Méthode 5 (SBERT + KMeans)
+sentence-transformers>=2.5.1
+transformers>=4.41.0
+tqdm>=4.66.1
+torch>=2.2.0           # CPU wheel is fine though
+
+# Slides-style charts
+matplotlib>=3.8.3
